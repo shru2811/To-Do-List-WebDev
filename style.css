@@ -1,12 +1,17 @@
 body{
-    background-image: url('bg.jpg');
-    background-size:cover;
+    background-color:#FF8989;
     font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .list{
-    margin-left: 400px;
-    width: 700px;
-    height: 700px;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100vh;
     background-color: rgba(255, 228, 196, 0.616);
     box-shadow: 3px 3px 10px beige;
 }
@@ -14,30 +19,26 @@ h1{
     text-align: center;
     background-color:#FF6666;
     color: #FFEADD;
-    width:600px;
-    margin-left:50px;
-    margin-top:30px;
+    width:60%;
     border-radius: 10px;
     border:2px solid #FCAEAE;
     box-shadow: 2px 2px 10px #FF8989;
 }
 input{
-    border-radius: 30px;
-    padding:2px;
-    height: 30px;
-    width: 400px;
-
+    border-radius: 10px;
+    padding:8px;
+    height: 50px;
+    width:75%;
+    margin:10px;
 }
 div{
     text-align: center;
-    margin-top:30px;
-    margin-bottom: 20px;
 }
 .delete{
     background-color: white;
     color:grey;
     border: 1px solid grey;
-    margin-left: 10px;
+
     padding:6px;
     border-radius: 4px;
 }
@@ -46,13 +47,29 @@ div{
     color:white;
     
 }
-li{
-    
-    margin-top:5px;
+.inp{
+    display: flex;
+    justify-content: center;
+
+    width: 80%;
 }
+.inp>button{
+    margin: 8px;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
 ul{
-    margin-left: 50px;
-    width: 600px;
+    width: 80%;
     background-color: bisque;
     text-align: center;
 }
+
+/* Responsive CSS */
+
+
